@@ -1,20 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery Foto</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="gallery">
-        <div class="image">
-            <img src="gambar1.jpg" alt="Deskripsi Gambar 1">
-        </div>
-        <div class="image">
-            <img src="gambar2.jpg" alt="Deskripsi Gambar 2">
-        </div>
-        <!-- Tambahkan lebih banyak gambar sesuai kebutuhan -->
-    </div>
-</body>
-</html>
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .member {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .member h2 {
+            margin-top: 0;
+        }
